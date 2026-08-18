@@ -1,0 +1,20 @@
+
+name: doodclip
+description: ดูดคลิป - ตัวจริง yt-dlp + ทำงานเบื้องหลัง + รองรับทุกจอ
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^16.3.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  dio: ^5.4.0
+  device_info_plus: ^9.1.0
+  share_handler: ^0.0.20
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
